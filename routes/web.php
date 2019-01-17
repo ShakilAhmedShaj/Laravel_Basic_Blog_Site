@@ -30,3 +30,7 @@ Route::resource('posts', 'PostController');
 //     return view('pages.about');
 // });
 
+
+Auth::routes();
+
+Route::get('/dashboard', 'DashboardController@index');
