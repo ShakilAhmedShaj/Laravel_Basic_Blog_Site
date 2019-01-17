@@ -11,7 +11,7 @@
         {!!$post->body!!}
       </p>
       <hr>
-      <h6 class="card-subtitle mb-2 text-muted">Written On {{$post->created_at}}</h6>
+      <h6 class="card-subtitle mb-2 text-muted">Written On {{$post->created_at}} by {{$post->user->name}}</h6>
     </div>
   </div>
   <hr>
